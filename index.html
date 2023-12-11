@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE+edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Mon Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar ">
+            <a href="#home" class="active ">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#works">Works</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, my name is</h3>
+            <h1>Moussa Camara</h1>
+            <h3>I am a <span class="multiple-text"></span></h3>
+            <p>who is currently based in Toulon, France.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/moussa-camara-036ab1239"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.https://github.com/28121979"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img w-50 ">
+            <!-- <img src="images/moi.JPG" class="img-thumbnail img-responsive margin" alt="photo de moi"> -->
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <!-- <img src="" alt=""mettre photo -->
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span Me></span></h2>
+            <h3>Full-Stack Developer</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, non! In error ipsam veritatis est enim consequatur. Quis blanditiis maxime iusto ducimus animi cumque sapiente. Quibusdam accusamus dolorum rerum corrupti.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id explicabo sequi facere eaque cum esse doloribus sapiente nesciunt culpa dicta eligendi repellat, repudiandae illum perferendis. Eligendi corporis modi tempore dolore!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-line-chart-down'></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id explicabo sequi facere eaque cum esse doloribus sapiente nesciunt culpa dicta eligendi repellat, repudiandae illum perferendis. Eligendi corporis modi tempore dolore!</p>
+                <a href="#" class="btn">Digital Marketing</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id explicabo sequi facere eaque cum esse doloribus sapiente nesciunt culpa dicta eligendi repellat, repudiandae illum perferendis. Eligendi corporis modi tempore dolore!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>  
+
+   
+    <section class="works-container">
+        <div class="works-box">
+            <img src="images/portfolio1.jpg" alt="">
+            <div class="works-layer">
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, consequatur soluta amet aperiam unde mollitia recusandae dolore odio quibusdam enim possimus porro facilis beatae tenetur labore nulla consequuntur sed aliquam.</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div> 
+        </div>
+        <div class="works-box">
+            <img src="images/portfolio2.jpg" alt="">mettre un photo projet
+            <div class="works-layer">
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, consequatur soluta amet aperiam unde mollitia recusandae dolore odio quibusdam enim possimus porro facilis beatae tenetur labore nulla consequuntur sed aliquam.</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div> 
+        </div>
+        <div class="works-box">
+            <img src="images/portfolio3.jpg" alt="">mettre un photo projet
+            <div class="works-layer">
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, consequatur soluta amet aperiam unde mollitia recusandae dolore odio quibusdam enim possimus porro facilis beatae tenetur labore nulla consequuntur sed aliquam.</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div> 
+        </div>
+        <div class="works-box">
+            <img src="images/portfolio4.jpg" alt="">mettre un photo projet
+            <div class="works-layer">
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, consequatur soluta amet aperiam unde mollitia recusandae dolore odio quibusdam enim possimus porro facilis beatae tenetur labore nulla consequuntur sed aliquam.</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div> 
+        </div>
+        <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>Me</span></h2>
+        <form action="#">
+            <div class="inpit-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Adress">
+            </div>
+            <div class="inpit-box">
+                <input type=    "number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Moussa | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    
+    </footer>
+
+        <!-- /*-- scroll reveal --> 
+        <script src="https://unpkg.com/scrollreveal"></script> 
+<!-- typed j.s  -->
+<!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+ <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script> 
+ <script src="script.js"></script>  
+</body>
+</html>
