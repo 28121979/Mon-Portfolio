@@ -95,7 +95,7 @@ section {
 .hone-img img {
     width: 35vw;
     animation: floatImage 4s ease-in-out infinite;
-    
+
 }
 
 @keyframes floatImage {
@@ -145,7 +145,7 @@ span {
     width: 4rem;
     height: 4rem;
     background: transparent;
-    border:  .2rem solid var(--main-color);
+    border: .2rem solid var(--main-color);
     border-radius: 50%;
     font-size: 2rem;
     color: var(--text-color);
@@ -208,7 +208,7 @@ span {
 
 .about-content p {
     font-size: 1.6rem;
-    margin: 2rem 0  3rem;
+    margin: 2rem 0 3rem;
     color: var(--text-color);
 }
 
